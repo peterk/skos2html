@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.homepage    =
     'http://rubygems.org/gems/skos2html'
 
-  s.add_dependency('rdf-rdfxml', '~> 1.0.2') # to make sure the fix for missing language attrobites is included
+  s.add_dependency('rdf-rdfxml', '~> 1.0.2') # to make sure the fix for missing language attributes is included
   s.add_dependency('linkeddata', '~> 1.0.5')
   s.add_dependency('builder')
   s.add_dependency('logger')
